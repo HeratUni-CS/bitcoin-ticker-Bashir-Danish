@@ -5,6 +5,7 @@ class Rates {
   String apiKey='1AAABBDA-EA69-4A6A-BEF8-0143ED0B2ADE';
   String url='https://rest.coinapi.io/v1/exchangerate';
 
+  
 
   Future<dynamic> getRate(String? currency) async{
     var data=[];
